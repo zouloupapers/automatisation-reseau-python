@@ -1,0 +1,12 @@
+# Secrets
+.env
+
+# Sauvegardes de configuration (peuvent contenir des secrets)
+backups/
+*.cfg
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
