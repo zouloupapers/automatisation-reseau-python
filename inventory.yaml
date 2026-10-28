@@ -1,0 +1,32 @@
+# Inventaire du labo - memes adresses que le depot lab-reseau-entreprise.
+# Aucun identifiant ici : ils sont lus dans .env (voir .env.example).
+
+devices:
+  - name: R1-EDGE
+    host: 10.0.0.1
+    device_type: cisco_ios
+    role: router
+  - name: R2-CORE
+    host: 192.168.99.1
+    device_type: cisco_ios
+    role: router
+  - name: SW1
+    host: 192.168.99.2
+    device_type: cisco_ios
+    role: switch
+
+vlans:
+  - id: 10
+    name: ADMIN
+  - id: 20
+    name: RH
+  - id: 30
+    name: SERVEURS
+  - id: 40
+    name: INVITES
+  - id: 99
+    name: GESTION
+  - id: 666
+    name: PARKING
+  - id: 999
+    name: NATIVE
